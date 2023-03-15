@@ -2,15 +2,15 @@ package HWArithmeticOperators;
 
 public class HW4Parallelepiped {
     public static void main(String[] args) {
-        int Long = 10;
-        int Width = 20;
-        int Height = 8;
+        int longParallelepiped = 10;
+        int widthParallelepiped = 20;
+        int heightParallelepiped = 8;
 
         //Формула Об'єму прямокутного паралелепіпеда
-        int volume = Long * Width * Height;
+        int volume = longParallelepiped * widthParallelepiped * heightParallelepiped;
 
         //Формула сумарної довжини всіх сторін прямокутного паралелепіпеда
-        int length = 4 * (Long + Width + Height);
+        int length = 4 * (longParallelepiped + widthParallelepiped + heightParallelepiped);
 
         System.out.println("Об'єм прямокутного паралелепіпеда = " + volume + " см");
         System.out.println("Сумарна довжина всіх сторін прямокутного паралелепіпеда = " + length + " см");

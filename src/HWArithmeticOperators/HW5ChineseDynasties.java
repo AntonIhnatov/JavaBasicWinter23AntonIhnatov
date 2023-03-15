@@ -16,27 +16,25 @@ public class HW5ChineseDynasties {
         int sumSoldiersLee = 860;
 
         //Кількість солдат арміїї Мінь більша в 1.5 раза за армію Лі
-        double sumSoldiersMinDouble = sumSoldiersLee * 1.5;
-        int sumSoldiersMin = (int) sumSoldiersMinDouble;
-
+        double sumSoldiersMin = sumSoldiersLee * 1.5;
         //Сумарна атака з кожного 3 типів воїнів армії Лі
         int totalAttackRateWarriorLee = warriorLee * sumSoldiersLee;
         int totalAttackRateArcherLee = archerLee * sumSoldiersLee;
         int totalAttackRateCavalierLee = cavalierLee *sumSoldiersLee;
 
         //Сумарна атака з кожного 3 типів воїнів армії Мінь
-        int totalAttackRateWarriorMin = warriorMin * sumSoldiersMin;
-        int totalAttackRateArcherMin = archerMin * sumSoldiersMin;
-        int totalAttackRateCavalierMin = cavalierMin * sumSoldiersMin;
+        double totalAttackRateWarriorMin = warriorMin * sumSoldiersMin;
+        double totalAttackRateArcherMin = archerMin * sumSoldiersMin;
+        double totalAttackRateCavalierMin = cavalierMin * sumSoldiersMin;
 
         //Сумарна атака усіх солдат армії Лі
         int AmountOfLeeArmyDamage = totalAttackRateWarriorLee + totalAttackRateArcherLee + totalAttackRateCavalierLee;
 
         //Сумарна атака усіх солдат армії Мінь
-        int AmountOfMinArmyDamage = totalAttackRateWarriorMin + totalAttackRateArcherMin + totalAttackRateCavalierMin;
+        double AmountOfMinArmyDamage = totalAttackRateWarriorMin + totalAttackRateArcherMin + totalAttackRateCavalierMin;
 
         System.out.println("Значення загальної атаки армії Лі: " + AmountOfLeeArmyDamage);
         System.out.println("Значення загальної атаки армії Мінь: " + AmountOfMinArmyDamage);
-
+        
     }
 }
