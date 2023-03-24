@@ -10,8 +10,9 @@ public class HW8NumbersOfShuttles {
             if ((shuttleSerialNumber.contains("4") || shuttleSerialNumber.contains("9"))) {
                 continue;
             }
-            System.out.println(counter + ": Шатл за номером - "+ shuttleNumber);
+            System.out.println(counter + ": Шатл за номером - " + shuttleNumber);
             counter++;
         }
     }
 }
+

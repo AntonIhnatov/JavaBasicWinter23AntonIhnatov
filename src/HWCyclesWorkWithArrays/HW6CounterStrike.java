@@ -86,9 +86,9 @@ public class HW6CounterStrike {
         double sumSecondTeamFrags = (secondTeamPlayer1+secondTeamPlayer2+secondTeamPlayer3+secondTeamPlayer4+secondTeamPlayer5)/5.0;
 
         if (sumFirstTeamFrags > sumSecondTeamFrags){
-            System.out.println("Перемогла команда " + nameFirstTeam + " набрала " + sumFirstTeamFrags + " очок");
+            System.out.println("Перемогла команда " + nameFirstTeam + " набрала середню кількість очок: " + sumFirstTeamFrags + " очок");
         } else if (sumFirstTeamFrags < sumSecondTeamFrags) {
-            System.out.println("Перемогла команда " + nameSecondTeam + " набрала " + sumSecondTeamFrags + " очок");
+            System.out.println("Перемогла команда " + nameSecondTeam + " набрала середню кількість очок: " + sumSecondTeamFrags + " очок");
         }else {
             System.out.println("Нічия");
         }
