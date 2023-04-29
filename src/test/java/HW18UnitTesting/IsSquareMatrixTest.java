@@ -9,7 +9,7 @@ public class IsSquareMatrixTest extends TestCase {
         String status = IsSquareMatrix.isSquareMatrix(matrix);
         System.out.println(status);
 
-        int[][] matrix1 = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 }, { 1, 3, 2} };
+        int[][] matrix1 = {};
         String status1 = IsSquareMatrix.isSquareMatrix(matrix1);
         System.out.println(status1);
     }
